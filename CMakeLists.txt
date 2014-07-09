@@ -11,4 +11,6 @@ enable_language(C CXX)
 
 add_executable(xy xy.cpp)
 target_link_libraries(xy ${ALPS_LIBRARIES})
-add_alps_test(hello)
+
+add_executable(random random.cpp)
+target_link_libraries(random ${ALPS_LIBRARIES})
